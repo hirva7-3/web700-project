@@ -7,6 +7,7 @@ fetch('https://www.thecocktaildb.com/api/json/v1/1/filter.php?c=Coffee%20%2F%20T
     renderCards(allItems);
   });
 
+
 function renderCards(items) {
   const container = document.getElementById('cards');
   const count = document.getElementById('count');
